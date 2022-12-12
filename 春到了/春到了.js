@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"春來了_atlas_1", frames: [[0,0,1055,659]]}
+		{name:"春到了_atlas_1", frames: [[0,0,1055,659]]}
 ];
 
 
@@ -27,8 +27,8 @@ lib.ssMetadata = [
 
 
 
-(lib.春到了 = function() {
-	this.initialize(ss["春來了_atlas_1"]);
+(lib.春到了_1 = function() {
+	this.initialize(ss["春到了_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -364,7 +364,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,250.3,241.3);
 
 
 // stage content:
-(lib.春來了 = function(mode,startPosition,loop,reversed) {
+(lib.春到了 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -379,7 +379,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.春ai();
 	this.instance.setTransform(619.2,418.6,1,1,0,0,0,125.1,120.6);
 
-	this.instance_1 = new lib.春到了();
+	this.instance_1 = new lib.春到了_1();
 	this.instance_1.setTransform(146,155,0.8761,0.8761);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(135));
@@ -397,7 +397,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/春來了_atlas_1.png?1666663114837", id:"春來了_atlas_1"}
+		{src:"images/春到了_atlas_1.png", id:"春到了_atlas_1"}
 	],
 	preloads: []
 };
